@@ -1,9 +1,6 @@
-extern crate embed_resource;
 use std::env;
 
 fn main() {
-    let target = env::var("TARGET").unwrap();
-    if target.contains("windows") {
-        embed_resource::compile("build/windows/icon.rc");
-    }
+    // do nothing, just check build time in workflow for macOS
+    let _target = env::var("TARGET").unwrap();
 }
