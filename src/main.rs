@@ -1,5 +1,3 @@
-use game_plugin::MESSAGE;
-
 fn main() {
-    println!("{}", MESSAGE)
+    println!("Hi there")
 }
