@@ -5,10 +5,3 @@ version = 3
 [[package]]
 name = "bevy_game"
 version = "0.1.0"
-dependencies = [
- "game_plugin",
-]
-
-[[package]]
-name = "game_plugin"
-version = "0.1.0"
