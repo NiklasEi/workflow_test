@@ -8,6 +8,3 @@ edition = "2018"
 
 [dependencies]
 game_plugin = {path = "game_plugin"}
-
-[build-dependencies]
-embed-resource = "1.4"
